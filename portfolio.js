@@ -3,7 +3,7 @@ let cv=document.getElementById("cv");
 cv.addEventListener("click",()=>{
     
     let link=document.createElement('a');
-    link.href='../image/Senthil Kumar Resume.pdf';
+    link.href='';
 
     link.download="Senthil reference CV";
     document.body.appendChild(link);
