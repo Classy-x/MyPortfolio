@@ -1,0 +1,363 @@
+*{
+   font-family: sans-serif;
+   background-color: rgb(15, 15, 17);
+   color: white;
+   letter-spacing: 2px;
+}
+body{
+    margin: 0px;
+}
+#for_head{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    margin: 0px;
+}
+#navigation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(27,27,29);
+    
+}
+ a{
+    text-decoration: none;
+    background-color: rgb(27,27,29); 
+}
+
+a:hover{
+    color:  rgb(31, 207, 219);
+}
+
+#for_nav{
+    margin-left: 350px;
+}
+
+#home_body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 95vh;
+    line-height:40px;
+    align-items: center;
+
+}
+#image{
+    background-size: 530px;
+    background-position: center;
+    background-image: url("../image/new\ image.jpg");
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: -30px;
+    opacity: 0.7;
+    border-radius: 35% 65% 47% 53% / 58% 59% 41% 42% ;
+
+    
+}
+#own_intro{
+    margin-left: 125px;
+    height: 400px;
+    width: 450px;
+}
+#intro{
+    font-weight: 600;
+    font-size: 4vh;
+    color:  rgb(31,207,219);
+}
+#mine{
+    font-size: 8vh;
+    font-weight: lighter;
+}
+
+#specify{
+    line-height:30px;
+}
+
+i{
+    font-size: 4.5vh;
+    letter-spacing: 10px;
+}
+#git{
+    color: rgb(21, 59, 133);
+}
+#insta{
+    color: rgb(255,27,68);
+}
+#in{
+    color: rgb(0,119,181);
+}
+#tele{
+    color: rgb(14,162,229);
+} 
+#git:hover,#insta:hover,#in:hover,#tele:hover{
+    transform: scale(1.1);
+    transition: 0.2s; 
+
+}
+
+#about{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+}
+#img_abt{
+    height: 375px;
+    width: 325px;
+    margin-left: 180px;
+    box-shadow: 0px -0px 15px 2px  rgb(31, 207, 219);
+    background-image: url(../image/IMG_7159.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+#about_me{
+    width: 550px;
+    height: 350px; 
+    margin-left: 120px; 
+}
+#content{
+    word-spacing: 3px;
+    font-size: 2.25vh;
+    margin-top: 30px;
+    line-height: 25px;
+    text-align: left;
+}
+#head_me{
+    text-decoration: underline;
+    margin-top: 0px;
+    text-align: start;  
+
+}
+#about_form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 10px;  
+}
+#span_me{
+    margin-left:36px;
+}
+#dob{
+    margin-left: 34px;
+}
+#adre{
+    margin-left: 15.5px;
+}
+#code{
+    margin-left: 17.5px;
+}
+.para{
+    color: rgb(31,207,219);
+}
+#cv{
+   width: 120px;
+   height: 30px;
+   margin-left: 195px;
+   background-color: rgb(31, 207, 219);
+   border: none;
+   border-radius:3px;
+   color:  rgb(15, 15, 17);
+   font-weight: bold;
+  
+}
+#cv:hover{
+    background-color:  rgba(68, 222, 233, 0.658);
+    transition: 0.7s;
+    color: rgb(255, 253, 253);
+}
+#Skills{
+    display: flex;
+    flex-wrap: wrap;
+    height: 70vh;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+.skill_set{
+    width: 225px;
+    height: 225px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(54, 54, 56, 0.308);
+    margin-top: 80px;
+}
+#element{
+    background-color:rgb(27,27,29);
+    color:  rgb(31,207,219);
+    font-size: 15vh;
+    margin-left: 50px;
+    margin-top: 15px;
+    text-align: center;
+}
+#element1{
+    background-color:rgb(27,27,29);
+    color:  rgb(31,207,219);
+    font-size: 15vh;
+    margin-left: 65px;
+    margin-top: 15px;
+    text-align: center;
+}
+.fe{
+    background-color:rgb(27,27,29) ;
+}
+#fe_con{
+    text-align: center;
+    line-height: 20px;
+}
+#fe_he{
+    margin-left: 7px;
+    text-decoration: underline;
+}
+#skill_logo{
+    height: 40vh; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-start;
+
+}
+.img_logo{
+    width: 120px;
+    height: 120px;
+}
+#head_project{
+    height: 120vh;
+
+}
+#my_prohead{
+    text-align: center;
+    font-size: 5vh;
+    text-decoration: underline;
+    margin-top:100px;
+}
+#project{
+    display: grid;
+    grid-template-columns: 300px 300px; 
+    grid-template-rows: 300px 300px;
+    column-gap: 300px;
+    row-gap: 25px;
+    justify-content: center;
+    position: relative;
+    
+}
+#cd2,#cd1,#cd3,#cd4{
+    width: 300px ;
+    height: 250px;
+    position: absolute;
+    border-radius: 5px;
+    opacity: 0.8;
+    margin-top: -128px;
+    display: none;
+    animation: content 2s ;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    
+}
+@keyframes content {
+    from{
+        margin-top:0px;
+    }
+    to{
+        margin-top: -128px;
+    }
+}
+#disable,#disable1,#disable2,#disable3{
+    position: relative;
+    margin-left: 270px;
+    margin-top: 10px;
+    font-size: larger;
+    width: 0px;
+
+}
+
+.detail_para{
+    padding: 20px;
+}
+.sub_project{
+    box-shadow: 0px -0px 15px 2px  rgb(31, 207, 219);
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    border-radius: 5px;
+    background-color: rgb(27,27,29);
+}
+.buttonu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 175px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(27,27,29);
+    
+
+}
+.click{
+    width: 80px;
+    height: 25px;
+    background-color: rgb(31, 207, 219);
+    border: none;
+    border-radius:3px;
+    color:  rgb(15, 15, 17);
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+    
+
+}
+.click:hover{
+    background-color:  rgba(68, 222, 233, 0.658);
+    transition: 0.7s;
+    color: rgb(255, 253, 253);
+}
+
+#for_clock{
+    background-image: url("../image/Screenshot\ \(33\).png");
+    
+}
+#for_secure{
+    background-image: url("../image/Screenshot\ \(34\).png");
+}
+
+#for_mytune{
+    background-image: url("../image/Screenshot\ \(35\).png");
+}
+#for_acme{
+    background-image: url("../image/Screenshot\ \(39\).png");
+}
+
+#contact{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#my_con{
+    margin-top: 10px;
+    font-size: 5vh;
+    text-decoration: underline;
+}
+#mail{
+    font-size: large;
+    color:  rgba(255, 0, 0, 0.822);
+}
+#mob{
+    font-size: large;
+    color: steelblue;
+}
+
+
+
+
+
+
+
+
