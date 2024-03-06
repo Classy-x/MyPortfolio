@@ -4,7 +4,7 @@ Welcome to my portfolio! This website showcases my skills, projects, and experie
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Demo](https://classy-x.github.io/My_portfolio.github.io/)
+- [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -15,7 +15,7 @@ Hi there! I'm [Your Name], a passionate web developer with a keen interest in cr
 
 ## Demo
 
-You can check out the live demo [here](#your-portfolio-live-link).
+You can check out the live demo [here](https://classy-x.github.io/My_portfolio.github.io/).
 
 ## Technologies Used
 
