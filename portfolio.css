@@ -186,8 +186,9 @@ i{
    border: none;
    border-radius:3px;
    color:  rgb(15, 15, 17);
-   font-weight: bold;
    cursor: pointer;
+   font-weight: bold;
+
   
 }
 #cv:hover{
