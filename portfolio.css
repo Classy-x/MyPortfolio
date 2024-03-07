@@ -46,7 +46,7 @@ body{
     width: 100%;
     transform: scaleX(1); 
 }
- a{
+a{
     text-decoration: none;
     background-color: rgb(27,27,29); 
 }
