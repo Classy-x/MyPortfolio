@@ -187,6 +187,7 @@ i{
    border-radius:3px;
    color:  rgb(15, 15, 17);
    font-weight: bold;
+   cursor: pointer;
   
 }
 #cv:hover{
@@ -331,6 +332,7 @@ i{
     font-weight: bold;
     text-align: center;
     line-height: 25px;
+    cursor: pointer;
     
 
 }
