@@ -15,7 +15,7 @@ Hi there! I'm [Your Name], a passionate web developer with a keen interest in cr
 
 ## Demo
 
-You can check out the live demo [here](https://classy-x.github.io/My_portfolio.github.io/).
+You can check out the live demo [here](https://classy-x.github.io/MyPortfolio/).
 
 ## Technologies Used
 
