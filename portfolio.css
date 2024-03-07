@@ -23,6 +23,29 @@ body{
     transition: 2s ease;
     
 }
+.nav {
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.nav::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0px; 
+    width: 10px; 
+    height: 1.5px;
+    background-color: rgb(179, 228, 231);
+    transform-origin: left; 
+    transform: scaleX(0); 
+    transition: transform 0.5s;
+    
+}
+
+.nav:hover::after {
+    width: 100%;
+    transform: scaleX(1); 
+}
  a{
     text-decoration: none;
     background-color: rgb(27,27,29); 
@@ -33,7 +56,7 @@ a:hover{
 }
 
 #for_nav{
-    margin-left: 350px;
+    margin-left: 370px;
 }
 
 #home_body{
