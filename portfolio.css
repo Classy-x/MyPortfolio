@@ -515,8 +515,8 @@ textarea{
    .nav {
     display: none; 
     line-height: 20px;
-    border: 1px solid aqua;
-    width: 100%;
+    border: 1px solid rgb(31,207,219);
+    width: 99%;
     text-align: end;
     position: relative;
     opacity: 0;
@@ -525,13 +525,12 @@ textarea{
  body{
     overflow-x: hidden;
  } 
+ #for_con{
+    width: 380px;
+    margin-left: 50px;
+ }
 }
-@media only screen and (max-width: 767px) {
-    body {
-        overflow-x: hidden;
-        overflow-y: auto;    
-    }
-}
+
 
 
 
