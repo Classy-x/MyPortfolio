@@ -476,14 +476,14 @@ textarea{
    .sub_project{
     height: 250px;
    }
-   
+   #my_con{
+    margin-left: 50px;
+ }
    #contact{
       margin-top: 600px;
       margin-left: -50px;
    }
-   #my_con{
-    margin-left: 50px;
- }
+   
    input{
     width: 150px;
    }
