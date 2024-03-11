@@ -78,7 +78,7 @@ a:hover{
 #image{
     background-size: 530px;
     background-position: center;
-    background-image: url("../image/new\ image.jpg");
+    background-image: url("other/new\ image.jpg");
     width: 500px;
     height: 500px;
     margin-left: 100px;
@@ -141,7 +141,7 @@ i{
     width: 325px;
     margin-left: 180px;
     box-shadow: 0px -0px 15px 2px  rgb(31, 207, 219);
-    background-image: url(../image/IMG_7159.JPG);
+    background-image: url("other/IMG_7159.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
@@ -357,18 +357,18 @@ i{
 }
 
 #for_clock{
-    background-image: url("../image/Screenshot\ \(33\).png");
+    background-image: url("other/Screenshot\ \(33\).png");
     
 }
 #for_secure{
-    background-image: url("../image/Screenshot\ \(34\).png");
+    background-image: url("other/Screenshot\ \(34\).png");
 }
 
 #for_mytune{
-    background-image: url("../image/Screenshot\ \(41\).png");
+    background-image: url("other/Screenshot\ \(41\).png");
 }
 #for_acme{
-    background-image: url("../image/Screenshot\ \(39\).png");
+    background-image: url("other/Screenshot\ \(39\).png");
 }
 
 #contact{
