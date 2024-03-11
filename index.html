@@ -164,15 +164,23 @@
         </div>
 
         <div id="contact">
-             <div><h2 id="my_con">Get In <span style="color:  rgb(31, 207, 219);">Touch</span></h2></div>
-             <div>
-                <p> E-mail or call me to set up a consult</p>
-             </div>
-             <p><i id="mail" title="Email" class="fa-solid fa-envelope-open"></i>: senthilkumarsusi2002@gmail.com
-            </p>
-            <p><i id="mob" title="mobile" class="fa-solid fa-mobile-screen-button"></i>: (636)931-6704</p>
+            <div><h2 id="my_con">Get In <span style="color:  rgb(31, 207, 219);">Touch</span></h2></div>
+           <form id="for_con" action="https://api.web3forms.com/submit" method="POST">
+              
+                   <input type="hidden" name="access_key" value="6d4d1462-58ef-4049-bf0f-058a5136e779" >
 
-        </div>
+                   <input class="input_data"  type="text" name="for_name" id="for_name" placeholder="Full name" >
+                  
+                   <input class="input_data"  type="text" name="for_mail" id="for_mail" placeholder="Email address" ><br>
+                   
+                   <input class="input_data"  type="text" name="for_number" id="for_name" placeholder="Mobile number">
+                  
+                   <input  class="input_data"  type="text" name="for_sub" id="for_mail" placeholder="Subject"><br>
+
+                    <textarea name="" id="text" cols="20" rows="4" placeholder="Your message" ></textarea><br>
+                    <input  type="submit" id="submit">
+           </form>
+       </div>
 
 
 
