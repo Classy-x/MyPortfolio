@@ -3,7 +3,7 @@ let cv=document.getElementById("cv");
 cv.addEventListener("click",()=>{
     
     let link=document.createElement('a');
-    link.href='other/Senthil Kumar Resume.pdf';
+    link.href='../image/Senthil Kumar Resume.pdf';
 
     link.download="Senthil reference CV";
     document.body.appendChild(link);
@@ -60,8 +60,67 @@ for (let i = 0; i < anchors.length; i++) {
           anchors[j].style.color = ""; 
       }
       anchors[i].style.color = "tomato"; 
+      
   });
 }
 
+let input = document.getElementsByClassName("input_data");
+let text =document.getElementById("text")
 
+function reset() {
+  for (let i = 0; i < input.length; i++) {
+    input[i].style.boxShadow = "0px 0px 0px 0px ";
+  }
+  text.style.boxShadow="0px 0px 0px 0px"
+}
+
+text.addEventListener("focus",(obj)=>{
+  obj.stopPropagation();
+  reset();
+  text.style.boxShadow="0px 0px 5px 0px rgb(31, 207, 219)"
+})
+text.addEventListener("click",(obj)=>{
+  obj.stopPropagation();
+  reset();
+  text.style.boxShadow="0px 0px 5px 0px rgb(31, 207, 219)"
+})
+
+for (let i = 0; i < input.length; i++) {
+  input[i].addEventListener("click", function (obj) {
+    obj.stopPropagation();
+    reset();
+    this.style.boxShadow = "0px 0px 5px 0px rgb(31, 207, 219)";
+  });
+  input[i].addEventListener("focus", function () {
+    reset(); 
+    this.style.boxShadow = "0px 0px 5px 0px rgb(31, 207, 219)";
+  });
+}
+document.body.addEventListener("click", function () {
+  reset(); 
+});
+let submit = document.getElementById("submit");
+ submit.addEventListener("click",()=>{
+      
+ })
+
+ let bar = document.getElementById("bar");
+ let nav = document.getElementsByClassName("nav");
+ let cross=document.getElementById("bar1")
+ bar.addEventListener("click", () => {
+  for (let i = 0; i < nav.length; i++) {
+      if (nav[i].style.opacity === "1") {
+          nav[i].style.opacity = "0";
+          setTimeout(() => {
+              nav[i].style.display = "none";
+
+          }, 300); 
+      } else {
+          nav[i].style.display = "block";
+          setTimeout(() => {
+              nav[i].style.opacity = "1";
+          }, 0); 
+      }
+  }
+});
 
