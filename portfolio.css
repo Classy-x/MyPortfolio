@@ -3,15 +3,19 @@
    background-color: rgb(15, 15, 17);
    color: white;
    letter-spacing: 2px;
+   scroll-behavior:smooth ;
 }
 body{
     margin: 0px;
+    
 }
+
 #for_head{
     position: sticky;
     top: 0px;
     z-index: 1;
     margin: 0px;
+    
 }
 #navigation{
     display: flex;
@@ -20,13 +24,15 @@ body{
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(27,27,29);
-    transition: 2s ease;
+    
     
 }
 .nav {
     position: relative;
     padding-bottom: 2px;
+   
 }
+
 
 .nav::after {
     content: "";
@@ -35,7 +41,7 @@ body{
     left: 0px; 
     width: 10px; 
     height: 1.5px;
-    background-color: rgb(179, 228, 231);
+    background-color: #b3e4e7;
     transform-origin: left; 
     transform: scaleX(0); 
     transition: transform 0.5s;
@@ -46,6 +52,7 @@ body{
     width: 100%;
     transform: scaleX(1); 
 }
+
 a{
     text-decoration: none;
     background-color: rgb(27,27,29); 
@@ -71,21 +78,21 @@ a:hover{
 #image{
     background-size: 530px;
     background-position: center;
-    background-image: url("other/new\ image.jpg");
+    background-image: url("../image/new\ image.jpg");
     width: 500px;
     height: 500px;
     margin-left: 100px;
     margin-top: -30px;
     opacity: 0.7;
     border-radius: 35% 65% 47% 53% / 58% 59% 41% 42% ;
-
-    
+   
 }
+
 #own_intro{
     margin-left: 125px;
     height: 400px;
     width: 450px;
-}
+    }
 #intro{
     font-weight: 600;
     font-size: 4vh;
@@ -134,11 +141,12 @@ i{
     width: 325px;
     margin-left: 180px;
     box-shadow: 0px -0px 15px 2px  rgb(31, 207, 219);
-    background-image: url(other/IMG_7159.JPG);
+    background-image: url(../image/IMG_7159.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
-}
+  }
+
 #about_me{
     width: 550px;
     height: 350px; 
@@ -186,9 +194,8 @@ i{
    border: none;
    border-radius:3px;
    color:  rgb(15, 15, 17);
-   cursor: pointer;
    font-weight: bold;
-
+   cursor: pointer;
   
 }
 #cv:hover{
@@ -269,9 +276,13 @@ i{
     column-gap: 300px;
     row-gap: 25px;
     justify-content: center;
-    position: relative;
-    
+     
 }
+.buttonu{
+    position: relative;
+}
+
+
 #cd2,#cd1,#cd3,#cd4{
     width: 300px ;
     height: 250px;
@@ -282,7 +293,7 @@ i{
     display: none;
     animation: content 2s ;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-
+    
     
 }
 @keyframes content {
@@ -293,26 +304,29 @@ i{
         margin-top: -128px;
     }
 }
+
 #disable,#disable1,#disable2,#disable3{
     position: relative;
     margin-left: 270px;
     margin-top: 10px;
     font-size: larger;
     width: 0px;
+    cursor: pointer;
 
 }
 
 .detail_para{
     padding: 20px;
 }
-.sub_project{
-    box-shadow: 0px -0px 15px 2px  rgb(31, 207, 219);
+.sub_project{ 
+    box-shadow: 0px -0px 15px 2px rgb(31, 207, 219);
     margin-top: 50px;
     background-repeat: no-repeat;
-    background-size: contain; 
+    background-size: contain;
     border-radius: 5px;
-    background-color: rgb(27,27,29);
+    background-color: rgb(27, 27, 29);
 }
+
 .buttonu{
     display: flex;
     flex-wrap: wrap;
@@ -320,10 +334,9 @@ i{
     justify-content: space-around;
     align-items: center;
     background-color: rgb(27,27,29);
-    
-
 }
-.click{
+
+.click,#submit{
     width: 80px;
     height: 25px;
     background-color: rgb(31, 207, 219);
@@ -337,53 +350,182 @@ i{
     
 
 }
-.click:hover{
+.click:hover,#submit:hover{
     background-color:  rgba(68, 222, 233, 0.658);
     transition: 0.7s;
     color: rgb(255, 253, 253);
 }
 
 #for_clock{
-    background-image: url("other/Screenshot\ \(33\).png");
+    background-image: url("../image/Screenshot\ \(33\).png");
     
 }
 #for_secure{
-    background-image: url("other/Screenshot\ \(34\).png");
+    background-image: url("../image/Screenshot\ \(34\).png");
 }
 
 #for_mytune{
-    background-image: url("other/Screenshot\ \(41\).png");
+    background-image: url("../image/Screenshot\ \(41\).png");
 }
 #for_acme{
-    background-image: url("other/Screenshot\ \(39\).png");
+    background-image: url("../image/Screenshot\ \(39\).png");
 }
 
 #contact{
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     
 }
 #my_con{
-    margin-top: 10px;
+    margin-left: -10px;
     font-size: 5vh;
     text-decoration: underline;
 }
-#mail{
-    font-size: large;
-    color:  rgba(255, 0, 0, 0.822);
+#for_con{
+    width: 600px;
+    height: 250px;
+    text-align: center;
+    line-height: 50px;
+
 }
-#mob{
-    font-size: large;
-    color: steelblue;
+textarea{
+    resize: none;
+    border: 1px solid rgb(31,207,219);
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+    width: 365px;
+    margin-top: 11px;
+    background-color: rgb(27,27,29);
+
+}
+.input_data{
+    border: 1px solid rgb(31, 207, 219);
+    height: 10px;
+    outline: none;
+    border-radius: 3px; 
+    padding: 10px;   
+    background-color: rgb(27,27,29);
+}
+#submit{
+    outline: none;
 }
 
-
-
-
+#menu-icon{
+    margin-left: 1000px;
+    display: none;
+}
+#bar{
+    display: none;
+}
+@media only screen and (max-width: 410px) {
+    #home_body{
+        display: flex;
+        flex-direction: row;
+        margin-left: -50px;
+    }
+    
+    #image{
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        margin-top: 100px;
+    }
+    #about{
+        display: flex;
+        flex-direction: row;
+        margin-top: 150px;
+        margin-left: -100px;
+    }
+   #img_abt{
+    margin-top: 100px;
+    margin-left: 130px;
+   }
+   #skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   }
+   #for_front{
+    margin-top: 450px;
+   }
+   .para{
+    line-height: 25px;
+   }
+   #cv{
+    margin-left: 100px;
+   }
+   #about_me{
+    margin-top: 20px;
+   }
+   #skill_logo{
+      margin-top: 650px;
+   }
+   #project{
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 300px;
+    column-gap: 25px;
+    row-gap: 25px;
+   }
+   .sub_project{
+    height: 250px;
+   }
+   
+   #contact{
+      margin-top: 600px;
+      margin-left: -100px;
+   }
+   input{
+    width: 150px;
+   }
+   textarea{
+    width: 330px;
+   }
+   #mine{
+     font-size:xx-large;
+   }
+   #bar{
+    display: block;
+    background-color: rgb(27,27,29);
+    font-size: medium;
+    cursor: pointer;
+    position: relative;
+    top: -42px;
+    left: 160px; 
+   
+   }
+   
+   #navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+     
+   }
+   #for_nav{
+     margin-left: 0px;
+   }
+   
+   .nav {
+    display: none; 
+    line-height: 20px;
+    border: 1px solid aqua;
+    width: 100%;
+    text-align: end;
+    position: relative;
+    opacity: 0;
+    transition: opacity 1s ease; 
+}
+ body{
+    overflow-x: hidden;
+ } 
+}
 
 
 
