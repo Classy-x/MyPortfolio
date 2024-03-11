@@ -99,28 +99,28 @@ for (let i = 0; i < input.length; i++) {
 document.body.addEventListener("click", function () {
   reset(); 
 });
-let submit = document.getElementById("submit");
- submit.addEventListener("click",()=>{
-      
- })
 
- let bar = document.getElementById("bar");
- let nav = document.getElementsByClassName("nav");
- let cross=document.getElementById("bar1")
- bar.addEventListener("click", () => {
-  for (let i = 0; i < nav.length; i++) {
-      if (nav[i].style.opacity === "1") {
-          nav[i].style.opacity = "0";
-          setTimeout(() => {
-              nav[i].style.display = "none";
 
-          }, 300); 
-      } else {
-          nav[i].style.display = "block";
-          setTimeout(() => {
-              nav[i].style.opacity = "1";
-          }, 0); 
-      }
-  }
+let bar = document.getElementById("bar");
+let nav = document.getElementsByClassName("nav");
+
+bar.addEventListener("click", () => {
+    for (let i = 0; i < nav.length; i++) {
+        if (parseFloat(window.getComputedStyle(nav[i]).opacity) === 1) {
+            nav[i].style.opacity = "0";
+            setTimeout(() => {
+                nav[i].style.display = "none";
+                bar.classList.toggle("fa-bars", true);
+                bar.classList.toggle("fa-x", false);
+            }, 300);
+        } else {
+            nav[i].style.display = "block";
+            setTimeout(() => {
+                nav[i].style.opacity = "1";
+                bar.classList.toggle("fa-bars", false);
+                bar.classList.toggle("fa-x", true);
+            }, 0);
+        }
+    }
 });
 
