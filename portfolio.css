@@ -526,7 +526,12 @@ textarea{
     overflow-x: hidden;
  } 
 }
-
+@media only screen and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;    
+    }
+}
 
 
 
