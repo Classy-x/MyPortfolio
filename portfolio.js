@@ -99,7 +99,6 @@ for (let i = 0; i < input.length; i++) {
 document.body.addEventListener("click", function () {
   reset(); 
 });
-// let sumit
 
 let bar = document.getElementById("bar");
 let nav = document.getElementsByClassName("nav");
