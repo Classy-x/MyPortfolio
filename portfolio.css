@@ -537,6 +537,12 @@ textarea{
     width: 380px;
     margin-left: 50px;
  }
+ #element1{
+    margin-left: 60px;
+ }
+ #element{
+    margin-left: 40px;
+ }
 }
 
 
