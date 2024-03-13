@@ -11,7 +11,7 @@ Welcome to my portfolio! This website showcases my skills, projects, and experie
   
 ## Introduction
 
-Hi there! I'm [Your Name], a passionate web developer with a keen interest in creating user-friendly and visually appealing websites. This portfolio is a reflection of my skills, showcasing various projects I've worked on.
+Hi there! I'm Senthil kumar, a passionate web developer interested in creating user-friendly and visually appealing websites. This portfolio is a reflection of my skills, showcasing various projects I've worked on.
 
 ## Demo
 
