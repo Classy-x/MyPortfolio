@@ -10,6 +10,20 @@ body{
     overflow-x: hidden;
     
 }
+#cursor{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    transition: 0.1s;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    box-shadow: 0px 0px 5px 0px gray;
+}
 #loader{
     background-color: rgb(15,15,17); 
     position: absolute;

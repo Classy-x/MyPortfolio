@@ -123,3 +123,21 @@ bar.addEventListener("click", () => {
     }
 });
 
+let loader=document.getElementById("loader");
+
+document.addEventListener("scroll",()=>{
+   let sc=window.scrollY;
+   loader.style.marginTop=sc*1+"px";
+})
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  
+  let cursor = document.getElementById("cursor");
+
+  document.addEventListener("mousemove", function(e) {
+      
+      cursor.style.left = e.clientX + "px";
+      cursor.style.top = e.clientY + "px";
+  });
+});
