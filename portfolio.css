@@ -146,7 +146,7 @@ a:hover{
     background-image: url("other/new\ image.jpg");
     width: 500px;
     height: 500px;
-    margin-left: 100px;
+    margin-left: 10%;
     margin-top: -30px;
     opacity: 0.7;
     border-radius: 35% 65% 47% 53% / 58% 59% 41% 42% ;
@@ -215,7 +215,7 @@ i{
 #about_me{
     width: 550px;
     height: 350px; 
-    margin-left: 120px; 
+    margin-left: 11%; 
 }
 #content{
     word-spacing: 3px;
