@@ -1,14 +1,15 @@
 let cv=document.getElementById("cv");
 
 cv.addEventListener("click",()=>{
-    
+  let bool= confirm("Do you want to download my cv");
+  if(bool==true){
     let link=document.createElement('a');
     link.href='other/Senthil Kumar Resume.pdf';
 
     link.download="Senthil reference CV";
     document.body.appendChild(link);
 
-    link.click();
+    link.click();}
 })
 
 let detail = document.getElementById("deta1");
