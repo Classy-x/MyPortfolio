@@ -512,7 +512,10 @@ textarea{
     }
    #img_abt{
     margin-top: 100px;
-    margin-left: 0px;
+    margin-left: 20px;
+   }
+   #about_me{
+    margin-left: 20px;
    }
    #skills{
     display: flex;
