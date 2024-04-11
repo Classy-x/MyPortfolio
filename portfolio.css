@@ -490,8 +490,7 @@ textarea{
 @media only screen and (max-width: 430px) {
     #home_body{
         display: flex;
-        flex-direction: row;
-        margin-left: -50px; 
+        flex-direction: row; 
         
     }
     #own_intro{
@@ -513,7 +512,7 @@ textarea{
     }
    #img_abt{
     margin-top: 100px;
-    margin-left: 40px;
+    margin-left: 20px;
    }
    #skills{
     display: flex;
