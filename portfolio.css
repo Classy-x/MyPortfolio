@@ -508,7 +508,7 @@ textarea{
         display: flex;
         flex-direction: row;
         margin-top: 150px;
-        margin-left: -10px;    
+        margin-left: 0px;    
     }
    #img_abt{
     margin-top: 100px;
