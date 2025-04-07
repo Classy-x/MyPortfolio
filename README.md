@@ -1,6 +1,8 @@
-# My Portfolio
+# 🗃️ Old Portfolio (Archived)
 
-Welcome to my portfolio! This website showcases my skills, projects, and experience in the field of web development. Feel free to explore and learn more about me.
+⚠️ **This is an older version of my personal portfolio and is no longer being updated.**
+
+👉 Please check out my **latest portfolio** here: [classy-x.github.io/Portfolio](https://classy-x.github.io/Portfolio)
 
 ## Table of Contents
 - [Introduction](#introduction)
