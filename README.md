@@ -17,7 +17,7 @@ Hi there! I'm Senthil kumar, a passionate web developer interested in creating u
 
 ## Demo
 
-You can check out the live demo [here](https://classy-x.github.io/MyPortfolio/).
+You can check out the live demo [here](https://classy-x.github.io/Old-Portfolio/).
 
 ## Technologies Used
 
